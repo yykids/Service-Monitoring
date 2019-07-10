@@ -1,15 +1,15 @@
-## Management > Service Monitoring > API 가이드
+## Management > Service Monitoring > APIガイド
 
-### 기본 정보
+### 基本情報
 ```
 API Endpoint: https://api-service-monitoring.cloud.toast.com
 ```
 
-## 배치 모니터링
+## バッチモニタリング
 
-### 데이터 전송
-- 배치 모니터링 서버로 검증이 필요한 데이터를 전송합니다.
-- 배치 모니터링에 입력한 검증 정보에 따른 JSON 타입의 데이터를 전송할 수 있으며, 배치 모니터링의 검증에 실패할 경우 장애로 등록됩니다.
+### データ転送
+- バッチモニタリングサーバーに、検証が必要なデータを転送します。
+- バッチモニタリングに入力した検証情報に基づいたJSONタイプのデータを転送することができ、バッチモニタリングの検証に失敗した場合は障害に登録されます。
 
 [URL]
 ```
@@ -19,10 +19,10 @@ Content-Type: application/json
 
 [Path Variables]
 
-| 값 |	타입 | 필수 여부 |	설명 |
-|---|---|---|--
-| appKey | String | Required | 서비스 앱 키 (서비스 관리 탭에서 확인 가능) |
-| scenarioId | String | Required | 서비스 ID |
+| 値 |	タイプ | 必須かどうか |	説明 |
+|---|---|---|--|
+| appKey | String | Required | サービスアプリケーションキー(サービス管理タブで確認可能) |
+| scenarioId | String | Required | サービスID |
 
 [Request Body]
 ```json
@@ -32,7 +32,7 @@ Content-Type: application/json
 ```
 
 
-#### 응답
+#### レスポンス
 ```json
 {
     "header": {
@@ -57,16 +57,16 @@ Content-Type: application/json
 }
 ```
 
-| 값 | 타입 | 설명 |
+| 値 | タイプ | 説明 |
 |---|---|---|
-| header.isSuccessful | Boolean | 성공 여부 |
-| header.resultCode | Integer | 실패 코드 (0은 정상) |
-| header.resultMessage | String | 실패 메시지 |
-| body.pk.serviceId | String | 서비스 고유 ID |
-| body.pk.requstId | String | 요청 고유 ID |
-| body.scenarioId | String | 시나리오 고유 ID |
-| body.requestData.body | Object | 요청 데이터 |
-| body.ipaddr | String | 요청자의 IP 주소 |
-| body.requestTime | String | 요청 시각 (ISO 8601 포맷) |
-| body.serviceCode | Integer | 서비스 고유 코드 |
-| body.status | String | 요청 상태 |
+| header.isSuccessful | Boolean | 成否 |
+| header.resultCode | Integer | 失敗コード(0は正常) |
+| header.resultMessage | String | 失敗メッセージ |
+| body.pk.serviceId | String | サービス固有ID |
+| body.pk.requstId | String | リクエスト固有ID |
+| body.scenarioId | String | シナリオ固有ID |
+| body.requestData.body | Object | リクエストデータ |
+| body.ipaddr | String | リクエスト者のIPアドレス |
+| body.requestTime | String | リクエスト時刻(ISO 8601フォーマット) |
+| body.serviceCode | Integer | サービス固有コード |
+| body.status | String | リクエスト状態 |

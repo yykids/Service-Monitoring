@@ -20,8 +20,8 @@ Content-Type: application/json
 [Path Variables]
 
 | 값 |	타입 | 필수 여부 |	설명 |
-|---|---|---|--
-| appKey | String | Required | 서비스 앱 키 (서비스 관리 탭에서 확인 가능) |
+|---|---|---|--|
+| appKey | String | Required | 서비스 앱키(서비스 관리 탭에서 확인 가능) |
 | scenarioId | String | Required | 서비스 ID |
 
 [Request Body]
@@ -60,13 +60,13 @@ Content-Type: application/json
 | 값 | 타입 | 설명 |
 |---|---|---|
 | header.isSuccessful | Boolean | 성공 여부 |
-| header.resultCode | Integer | 실패 코드 (0은 정상) |
+| header.resultCode | Integer | 실패 코드(0은 정상) |
 | header.resultMessage | String | 실패 메시지 |
 | body.pk.serviceId | String | 서비스 고유 ID |
 | body.pk.requstId | String | 요청 고유 ID |
 | body.scenarioId | String | 시나리오 고유 ID |
 | body.requestData.body | Object | 요청 데이터 |
 | body.ipaddr | String | 요청자의 IP 주소 |
-| body.requestTime | String | 요청 시각 (ISO 8601 포맷) |
+| body.requestTime | String | 요청 시각(ISO 8601 포맷) |
 | body.serviceCode | Integer | 서비스 고유 코드 |
 | body.status | String | 요청 상태 |
