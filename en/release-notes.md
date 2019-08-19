@@ -1,4 +1,4 @@
-## Management > Service Monitoring > 릴리스 노트
+## Management > Service Monitoring > Release Notes
 
 ### August 27, 2019
 

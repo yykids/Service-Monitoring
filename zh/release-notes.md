@@ -1,20 +1,20 @@
-## Management > Service Monitoring > 릴리스 노트
+## Management > Service Monitoring > Release Notes
 
-### 2019. 08. 27.
+### August 27, 2019
 
-#### 기능 개선
-* 일본어 글꼴을 TOAST 공통 글꼴로 변경하였습니다.
-* TCP 모니터링 시나리오 편집 화면에서 IP, PORT 입력 레이블을 분리해 가독성을 향상했습니다.
+#### Feature Updates
+* Japanese font changed into TOAST Common Font.
+* Separated input labels for IP from PORT, on the editing page of TCP monitoring scenario for better readability.
 
-#### 버그 수정
-* [전파 상세 보기] 화면에서 시간이 제대로 표시되지 않는 문제를 개선하였습니다.
-* 모니터링 장애를 등록할 때, 시나리오 저장 시 설정한 언어로 전파 제목이 등록되도록 개선하였습니다.
-* 장애 전파 메시지에서 장애 알림 페이지에 접속할 때, 만료되지 않았음에도 만료되었다고 나오는 현상을 개선하였습니다.
-* 일본어 장애 전파 메시지의 제목이 잘못 추가되는 문제를 개선하였습니다.
+#### Bug Fixes
+* Fixed the display error of time on the [View Transmission Details] page.
+* Updated, for the registration of monitoring error, to register transmission title in the language set when a scenario is saved.
+* Fixed the wrong notification of expiration, even if it is not expired, when you access error notification page via error transmission message
+* Fixed error in which a wrong message title is added, for Japanese error transmission messages
 
-### 2019. 07. 23.
+### July 23, 2019
 
-#### 신규 서비스 출시
-Service Monitoring은 안정적인 서비스 운영을 위한 서비스 장애 관리 플랫폼입니다. 
-	* 서비스별 전파 담당자, 전파 채널 관리
-	* 다양한 모니터링 방식 지원 - 웹 모니터링, TCP 모니터링, 배치 모니터링  
+#### New Service Releases
+Service Monitoring is a service failure management platform to allow stable service operations
+    * Transmission administrator assigned for each service, to manage transmission channels
+    * Supports a variety of monitoring methods - Web Monitoring, TCP Monitoring, or Batch Monitoring
