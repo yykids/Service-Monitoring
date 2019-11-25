@@ -63,7 +63,7 @@ Content-Type: application/json
 | header.resultCode | Integer | Fail code(0 is normal) |
 | header.resultMessage | String | Fail message |
 | body.pk.serviceId | String | Unique ID of the service |
-| body.pk.requstId | String | Unique ID of the request |
+| body.pk.requestId | String | Unique ID of the request |
 | body.scenarioId | String | Unique ID of the scenario |
 | body.requestData.body | Object | Request data |
 | body.ipaddr | String | IP address of the requestor |
