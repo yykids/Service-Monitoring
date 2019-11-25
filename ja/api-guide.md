@@ -63,7 +63,7 @@ Content-Type: application/json
 | header.resultCode | Integer | 失敗コード(0は正常) |
 | header.resultMessage | String | 失敗メッセージ |
 | body.pk.serviceId | String | サービス固有ID |
-| body.pk.requstId | String | リクエスト固有ID |
+| body.pk.requestId | String | リクエスト固有ID |
 | body.scenarioId | String | シナリオ固有ID |
 | body.requestData.body | Object | リクエストデータ |
 | body.ipaddr | String | リクエスト者のIPアドレス |
