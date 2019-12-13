@@ -8,7 +8,7 @@
 * Updated scenario editing for web monitoring 
   * Updated to show different placeholder for each text verification operator 
   * Text verification operator may be limited in exposure, depending on the [Scenario Verification Type].
-  * Updated to enable `Ignore Script Errors`, `Exclude Images from Downloading`, `Activate CSS`, even for when the [Scenario Verification Type] is module. 
+  * Updated to enable **Ignore Script Errors**, **Exclude Images from Downloading**, **Activate CSS**, even for when the [Scenario Verification Type] is module. 
 
 #### Bug Fixes  
 * Fixed the issue, in which mail for [Guide for Canceling Faulty Transmission] is sent by the recipient's name, not by the user who canceled.
