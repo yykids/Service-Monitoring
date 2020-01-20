@@ -1,5 +1,14 @@
 ## Management > Service Monitoring > Release Notes
 
+### Dec. 24, 2019
+
+#### Feature Updates
+* Updated detail history messages when it fails to transmit failure 
+* Upgraded the web page performance
+
+#### Bug Fixes
+* Fixed the transmission status page which did not properly show transmission history to users 
+
 ### Nov. 26, 2019
 
 #### Feature Updates
