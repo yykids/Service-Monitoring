@@ -1,5 +1,11 @@
 ## Management > Service Monitoring > Release Notes
 
+### Jan. 21, 2020
+
+#### Feature Updates
+* Supports the US Region for Web/TCP monitoring 
+* Added the option of monitoring region for the search of monitoring history
+
 ### Dec. 24, 2019
 
 #### Feature Updates
