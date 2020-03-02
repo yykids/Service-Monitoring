@@ -1,5 +1,13 @@
 ## Management > Service Monitoring > 릴리스 노트
 
+### 2020. 03. 24.
+
+#### 기능 개선
+* 웹 모니터링 데이터 검증시 [JsonPath 메서드](/ko/Management/Service%20Monitoring/ko/console-guide/#_9) 제공
+* 이메일 장애 메시지에 _조직명_, _프로젝트명_ 추가
+* [다중 배치 모니터링 검증 API](/ko/Management/Service%20Monitoring/ko/api-guide/) 지원
+* 배치 모니터링 내용 검증 결과에 대해서 실패한 내용에 대한 하이라이팅 추가
+
 ### 2020. 01. 21.
 
 #### 기능 개선
