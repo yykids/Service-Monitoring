@@ -67,6 +67,15 @@ Scenario is verified in the following way.
 | Image verification | Verifies whether an image exists on the response screen and it is downloadable or not. | None | Only module and virtual browser types are supported |
 | Propagation Exception Verification | No failure is propagated when a specific text exists in the response data (screen). | None | Used for maintenance |
 
+#### Function Support of Array Data for JsonPath Text Verification
+| Function | Description | Output Type |
+| -- | -- | -- |
+| min() | Minimum Value of Array Data | double | 
+| max() | Maximum Value of Array Data | double | 
+| sum() | Sum of Array Data | double | 
+| avg() | Average Value of Array Data | double | 
+| stddev() | Standard Deviation of Array Data | double | 
+| length() | Array Data Count | integer | 
 
 ## TCP monitoring
 
