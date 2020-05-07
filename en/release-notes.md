@@ -4,7 +4,7 @@
 
 #### Feature Updates 
 * Provides [JsonPath Method](/ko/Management/Service%20Monitoring/ko/console-guide/#_9) to validate web monitoring data
-* _Organization Name_, _Project Name_ are added to email error messages 
+* _Organization Name_ and _Project Name_ are added to an email error message
 * Supports [Validate Multiple Batch Monotoring API](/ko/Management/Service%20Monitoring/ko/api-guide/) 
 * Emphasizes failures from batch monitoring validation results 
 
